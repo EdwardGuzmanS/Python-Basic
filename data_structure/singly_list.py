@@ -10,10 +10,10 @@ insert_at_start()
 insert_at_end()
 insert_at()
 remove_at()
+get_length_list()
 
-remaining:
-    
-length
+   
+
 
 @author: edu
 """
