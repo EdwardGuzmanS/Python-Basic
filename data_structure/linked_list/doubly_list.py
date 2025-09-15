@@ -90,11 +90,11 @@ class Linkedlist:
             return
         
         elif 0 > index: 
-            raise ValueError("Negative Index")
+            raise IndexError("Negative Index")
             
         
         elif index > len(self):
-            raise ValueError("The Values are out of bounds")
+            raise IndexError("The Values are out of bounds")
         
         
         elif index == len(self):
@@ -122,11 +122,11 @@ class Linkedlist:
             
         
         elif  0 > index: 
-            raise ValueError("Negative Index")
+            raise IndexError("Negative Index")
             
         
         elif index >= len(self):
-            raise ValueError("The value of the index is incorrect")
+            raise IndexError("The value of the index is incorrect")
             return
         
         elif index == 0:
