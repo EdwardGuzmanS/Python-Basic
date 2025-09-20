@@ -31,6 +31,7 @@ class Stack:
     
     def size(self):
         return len(self.container)
+    
 #Implement Reverse String    
 def reverse_str(text: str) -> str:
     stack = Stack()
